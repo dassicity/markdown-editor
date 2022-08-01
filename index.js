@@ -1,7 +1,7 @@
 const express = require('express');
-const share = require('share');
+const sharejs = require('share');
 
-const redis = require('redis');
+require('redis');
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -20,7 +20,7 @@ let options = {
     db: { type: 'redis' },
 };
 
-share.server.attach(app, options);
+sharejs.server.attach(app, options);
 
 const port = process.env.PORT || 8000;
 app.listen(port);
