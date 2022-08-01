@@ -1,0 +1,58 @@
+html,
+body,
+section,
+.full-height {
+    height: 98%;
+}
+
+nav {
+    height: 45px;
+    min-height: 45px;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    left: 0;
+
+    line-height: 2.8125rem;
+    margin-bottom: 0;
+
+    display: block;
+}
+
+
+#pad {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+
+    border: 2px solid #ccc;
+    font-size: 0.875rem;
+    overflow: auto;
+    outline: none;
+    resize: none;
+
+    box-shadow: none;
+    /* background-color: black; */
+    /* width: 45%; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    min-height: 50px;
+    width: 45%;
+}
+
+#markdown {
+    overflow: auto;
+    border: 5px solid rgb(190, 163, 163);
+    /* background-color: black; */
+    /* max-width: 45%; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    cursor: auto;
+    color: #222;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    width: 54%;
+    margin-left: 0.5rem;
+}
